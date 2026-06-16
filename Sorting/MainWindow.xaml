@@ -1,0 +1,33 @@
+﻿<Window x:Class="MindFusion.Spreadsheet.Wpf.Samples.CS.Sorting.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+				xmlns:ss="http://mindfusion.eu/spreadsheet/wpf"
+        Title="MindFusion.Spreadsheet for WPF Sample: Sorting" Height="350" Width="525" WindowState="Maximized" Icon="/Sorting;component/App.ico">
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto" />
+			<RowDefinition />
+		</Grid.RowDefinitions>
+
+		<Menu>
+			<MenuItem Header="_File">
+				<MenuItem Name="exitMenu" Header="E_xit" Click="exitMenu_Click" />
+			</MenuItem>
+			<MenuItem Header="_Data">
+				<MenuItem Name="generateMenu" Header="_Generate" Click="generateMenu_Click" />
+				<MenuItem Name="importMenu" Header="_Import..." Click="importMenu_Click" />
+				<MenuItem Name="pasteMenu" Header="_Paste" Click="pasteMenu_Click" />
+			</MenuItem>
+			<MenuItem Header="_Sort">
+				<MenuItem Name="horizontallyMenu" Header="_Horizontally" Click="horizontallyMenu_Click" />
+				<MenuItem Name="verticallyMenu" Header="_Vertically" Click="verticallyMenu_Click" />
+				<MenuItem Name="optionsMenu" Header="_Options..." Click="optionsMenu_Click" />
+			</MenuItem>
+		</Menu>
+
+		<ss:WorkbookView x:Name="workbookView" Grid.Row="1">
+			<ss:Workbook x:Name="workbook" />
+		</ss:WorkbookView>
+
+	</Grid>
+</Window>

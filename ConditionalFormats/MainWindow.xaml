@@ -1,0 +1,24 @@
+﻿<Window x:Class="MindFusion.Spreadsheet.Wpf.Samples.CS.ConditionalFormats.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+				xmlns:ss="http://mindfusion.eu/spreadsheet/wpf"
+        Title="MindFusion.Spreadsheet for WPF Sample: Conditional Formats" Height="350" Width="525" WindowState="Maximized" Icon="/ConditionalFormats;component/App.ico">
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition />
+			<RowDefinition Height="Auto" />
+		</Grid.RowDefinitions>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition />
+			<ColumnDefinition Width="Auto" />
+		</Grid.ColumnDefinitions>
+
+		<ss:WorkbookView x:Name="workbookView" Grid.ColumnSpan="2">
+			<ss:Workbook x:Name="workbook" />
+		</ss:WorkbookView>
+
+		<TextBlock Margin="5" Grid.Row="1" Text="Select rows, columns or cells and click the 'Conditional formats' button to add, edit, and remove conditional formats for the selected cells." TextWrapping="Wrap" />
+		<Button Name="button" Grid.Column="1" Grid.Row="1" VerticalAlignment="Center" Content="Conditional formats..." Margin="5" Click="button_Click" />
+
+	</Grid>
+</Window>

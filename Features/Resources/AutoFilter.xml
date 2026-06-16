@@ -1,0 +1,615 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<workbook>
+  <worksheets>
+    <worksheet name="Sheet1" defaultColumnWidth="48pt" defaultRowHeight="14.25pt">
+      <columnStyles>
+        <region>
+          <lines>
+            <l ymin="0" ymax="1">
+              <segments>
+                <s p="3" s="1" />
+                <s p="4" s="0" />
+              </segments>
+            </l>
+          </lines>
+          <bounds x="3" y="0" width="1" height="1" />
+          <style t="1">
+            <width>68.25pt</width>
+            <conditionalFormats />
+          </style>
+        </region>
+        <region>
+          <lines>
+            <l ymin="0" ymax="1">
+              <segments>
+                <s p="0" s="1" />
+                <s p="1" s="0" />
+              </segments>
+            </l>
+          </lines>
+          <bounds x="0" y="0" width="1" height="1" />
+          <style t="1">
+            <width>79.5pt</width>
+            <conditionalFormats />
+          </style>
+        </region>
+        <region>
+          <lines>
+            <l ymin="0" ymax="1">
+              <segments>
+                <s p="2" s="1" />
+                <s p="3" s="0" />
+              </segments>
+            </l>
+          </lines>
+          <bounds x="2" y="0" width="1" height="1" />
+          <style t="1">
+            <width>120.75pt</width>
+            <conditionalFormats />
+          </style>
+        </region>
+        <region>
+          <lines>
+            <l ymin="0" ymax="1">
+              <segments>
+                <s p="5" s="1" />
+                <s p="6" s="0" />
+              </segments>
+            </l>
+          </lines>
+          <bounds x="5" y="0" width="1" height="1" />
+          <style t="1">
+            <width>61.5pt</width>
+            <conditionalFormats />
+          </style>
+        </region>
+      </columnStyles>
+      <rowStyles />
+      <styles>
+        <region>
+          <lines>
+            <l ymin="0" ymax="1">
+              <segments>
+                <s p="1" s="1" />
+                <s p="2" s="0" />
+              </segments>
+            </l>
+          </lines>
+          <bounds x="1" y="0" width="1" height="1" />
+          <style t="0">
+            <conditionalFormats />
+            <background id="0" />
+            <fontBold>1</fontBold>
+            <halign>3</halign>
+          </style>
+        </region>
+        <region>
+          <lines>
+            <l ymin="0" ymax="1">
+              <segments>
+                <s p="5" s="1" />
+                <s p="6" s="0" />
+              </segments>
+            </l>
+          </lines>
+          <bounds x="5" y="0" width="1" height="1" />
+          <style t="0">
+            <conditionalFormats />
+            <background id="0" />
+            <fontBold>1</fontBold>
+            <halign>3</halign>
+            <format>[$$-409]#,##0;([$$-409]#,##0)</format>
+          </style>
+        </region>
+        <region>
+          <lines>
+            <l ymin="0" ymax="1">
+              <segments>
+                <s p="0" s="1" />
+                <s p="1" s="0" />
+                <s p="2" s="1" />
+                <s p="5" s="0" />
+              </segments>
+            </l>
+          </lines>
+          <bounds x="0" y="0" width="5" height="1" />
+          <style t="0">
+            <conditionalFormats />
+            <background id="0" />
+            <fontBold>1</fontBold>
+          </style>
+        </region>
+        <region>
+          <lines>
+            <l ymin="1" ymax="1048576">
+              <segments>
+                <s p="5" s="1" />
+                <s p="6" s="0" />
+              </segments>
+            </l>
+          </lines>
+          <bounds x="5" y="1" width="1" height="1048575" />
+          <style t="0">
+            <conditionalFormats />
+            <format>[$$-409]#,##0;([$$-409]#,##0)</format>
+          </style>
+        </region>
+        <region>
+          <lines>
+            <l ymin="0" ymax="1">
+              <segments>
+                <s p="6" s="1" />
+                <s p="1024" s="0" />
+              </segments>
+            </l>
+          </lines>
+          <bounds x="6" y="0" width="1018" height="1" />
+          <style t="0">
+            <conditionalFormats />
+            <fontBold>1</fontBold>
+          </style>
+        </region>
+      </styles>
+      <mergedCells />
+      <columns />
+      <data>
+        <row r="0">
+          <c c="0">
+            <v t="23">1</v>
+          </c>
+          <c c="1">
+            <v t="23">2</v>
+          </c>
+          <c c="2">
+            <v t="23">3</v>
+          </c>
+          <c c="3">
+            <v t="23">4</v>
+          </c>
+          <c c="4">
+            <v t="23">5</v>
+          </c>
+          <c c="5">
+            <v t="23">6</v>
+          </c>
+        </row>
+        <row r="1">
+          <c c="0">
+            <v t="23">7</v>
+          </c>
+          <c c="1">
+            <v t="17">41</v>
+          </c>
+          <c c="2">
+            <v t="23">8</v>
+          </c>
+          <c c="3">
+            <v t="23">9</v>
+          </c>
+          <c c="4">
+            <v t="23">10</v>
+          </c>
+          <c c="5">
+            <v t="17">2000</v>
+          </c>
+        </row>
+        <row r="2">
+          <c c="0">
+            <v t="23">11</v>
+          </c>
+          <c c="1">
+            <v t="17">29</v>
+          </c>
+          <c c="2">
+            <v t="23">12</v>
+          </c>
+          <c c="3">
+            <v t="23">13</v>
+          </c>
+          <c c="4">
+            <v t="23">14</v>
+          </c>
+          <c c="5">
+            <v t="17">3500</v>
+          </c>
+        </row>
+        <row r="3">
+          <c c="0">
+            <v t="23">15</v>
+          </c>
+          <c c="1">
+            <v t="17">24</v>
+          </c>
+          <c c="2">
+            <v t="23">16</v>
+          </c>
+          <c c="3">
+            <v t="23">17</v>
+          </c>
+          <c c="4">
+            <v t="23">18</v>
+          </c>
+          <c c="5">
+            <v t="17">3200</v>
+          </c>
+        </row>
+        <row r="4">
+          <c c="0">
+            <v t="23">19</v>
+          </c>
+          <c c="1">
+            <v t="17">32</v>
+          </c>
+          <c c="2">
+            <v t="23">20</v>
+          </c>
+          <c c="3">
+            <v t="23">13</v>
+          </c>
+          <c c="4">
+            <v t="23">14</v>
+          </c>
+          <c c="5">
+            <v t="17">2900</v>
+          </c>
+        </row>
+        <row r="5">
+          <c c="0">
+            <v t="23">21</v>
+          </c>
+          <c c="1">
+            <v t="17">35</v>
+          </c>
+          <c c="2">
+            <v t="23">22</v>
+          </c>
+          <c c="3">
+            <v t="23">23</v>
+          </c>
+          <c c="4">
+            <v t="23">24</v>
+          </c>
+          <c c="5">
+            <v t="17">2550</v>
+          </c>
+        </row>
+        <row r="6">
+          <c c="0">
+            <v t="23">25</v>
+          </c>
+          <c c="1">
+            <v t="17">36</v>
+          </c>
+          <c c="2">
+            <v t="23">26</v>
+          </c>
+          <c c="3">
+            <v t="23">17</v>
+          </c>
+          <c c="4">
+            <v t="23">18</v>
+          </c>
+          <c c="5">
+            <v t="17">4100</v>
+          </c>
+        </row>
+        <row r="7">
+          <c c="0">
+            <v t="23">27</v>
+          </c>
+          <c c="1">
+            <v t="17">44</v>
+          </c>
+          <c c="2">
+            <v t="23">20</v>
+          </c>
+          <c c="3">
+            <v t="23">28</v>
+          </c>
+          <c c="4">
+            <v t="23">18</v>
+          </c>
+          <c c="5">
+            <v t="17">4200</v>
+          </c>
+        </row>
+        <row r="8">
+          <c c="0">
+            <v t="23">29</v>
+          </c>
+          <c c="1">
+            <v t="17">30</v>
+          </c>
+          <c c="2">
+            <v t="23">16</v>
+          </c>
+          <c c="3">
+            <v t="23">13</v>
+          </c>
+          <c c="4">
+            <v t="23">14</v>
+          </c>
+          <c c="5">
+            <v t="17">1800</v>
+          </c>
+        </row>
+        <row r="9">
+          <c c="0">
+            <v t="23">30</v>
+          </c>
+          <c c="1">
+            <v t="17">35</v>
+          </c>
+          <c c="2">
+            <v t="23">31</v>
+          </c>
+          <c c="3">
+            <v t="23">32</v>
+          </c>
+          <c c="4">
+            <v t="23">33</v>
+          </c>
+          <c c="5">
+            <v t="17">2000</v>
+          </c>
+        </row>
+        <row r="10">
+          <c c="0">
+            <v t="23">34</v>
+          </c>
+          <c c="1">
+            <v t="17">37</v>
+          </c>
+          <c c="2">
+            <v t="23">20</v>
+          </c>
+          <c c="3">
+            <v t="23">35</v>
+          </c>
+          <c c="4">
+            <v t="23">36</v>
+          </c>
+          <c c="5">
+            <v t="17">3200</v>
+          </c>
+        </row>
+        <row r="11">
+          <c c="0">
+            <v t="23">37</v>
+          </c>
+          <c c="1">
+            <v t="17">26</v>
+          </c>
+          <c c="2">
+            <v t="23">38</v>
+          </c>
+          <c c="3">
+            <v t="23">39</v>
+          </c>
+          <c c="4">
+            <v t="23">14</v>
+          </c>
+          <c c="5">
+            <v t="17">2850</v>
+          </c>
+        </row>
+        <row r="12">
+          <c c="0">
+            <v t="23">40</v>
+          </c>
+          <c c="1">
+            <v t="17">29</v>
+          </c>
+          <c c="2">
+            <v t="23">16</v>
+          </c>
+          <c c="3">
+            <v t="23">9</v>
+          </c>
+          <c c="4">
+            <v t="23">10</v>
+          </c>
+          <c c="5">
+            <v t="17">2150</v>
+          </c>
+        </row>
+        <row r="13">
+          <c c="0">
+            <v t="23">41</v>
+          </c>
+          <c c="1">
+            <v t="17">41</v>
+          </c>
+          <c c="2">
+            <v t="23">38</v>
+          </c>
+          <c c="3">
+            <v t="23">28</v>
+          </c>
+          <c c="4">
+            <v t="23">18</v>
+          </c>
+          <c c="5">
+            <v t="17">5100</v>
+          </c>
+        </row>
+        <row r="14">
+          <c c="0">
+            <v t="23">42</v>
+          </c>
+          <c c="1">
+            <v t="17">42</v>
+          </c>
+          <c c="2">
+            <v t="23">43</v>
+          </c>
+          <c c="3">
+            <v t="23">44</v>
+          </c>
+          <c c="4">
+            <v t="23">14</v>
+          </c>
+          <c c="5">
+            <v t="17">5900</v>
+          </c>
+        </row>
+        <row r="15">
+          <c c="0">
+            <v t="23">45</v>
+          </c>
+          <c c="1">
+            <v t="17">48</v>
+          </c>
+          <c c="2">
+            <v t="23">38</v>
+          </c>
+          <c c="3">
+            <v t="23">46</v>
+          </c>
+          <c c="4">
+            <v t="23">47</v>
+          </c>
+          <c c="5">
+            <v t="17">3500</v>
+          </c>
+        </row>
+        <row r="16">
+          <c c="0">
+            <v t="23">48</v>
+          </c>
+          <c c="1">
+            <v t="17">33</v>
+          </c>
+          <c c="2">
+            <v t="23">49</v>
+          </c>
+          <c c="3">
+            <v t="23">50</v>
+          </c>
+          <c c="4">
+            <v t="23">36</v>
+          </c>
+          <c c="5">
+            <v t="17">4550</v>
+          </c>
+        </row>
+        <row r="17">
+          <c c="0">
+            <v t="23">51</v>
+          </c>
+          <c c="1">
+            <v t="17">28</v>
+          </c>
+          <c c="2">
+            <v t="23">52</v>
+          </c>
+          <c c="3">
+            <v t="23">53</v>
+          </c>
+          <c c="4">
+            <v t="23">18</v>
+          </c>
+          <c c="5">
+            <v t="17">3900</v>
+          </c>
+        </row>
+      </data>
+      <hyperlinks />
+      <drawing />
+      <autoFilter range="Sheet1!$A$1:$F$18">
+        <filters>
+          <filter on="0" showButton="1" operator="0" />
+          <filter on="0" showButton="1" operator="0" />
+          <filter on="0" showButton="1" operator="0" />
+          <filter on="0" showButton="1" operator="0" />
+          <filter on="0" showButton="1" operator="0" />
+          <filter on="0" showButton="1" operator="0" />
+        </filters>
+      </autoFilter>
+    </worksheet>
+    <worksheet name="Sheet2" defaultColumnWidth="48pt" defaultRowHeight="14.25pt">
+      <columnStyles />
+      <rowStyles />
+      <styles />
+      <mergedCells />
+      <columns />
+      <data />
+      <hyperlinks />
+      <drawing />
+    </worksheet>
+    <worksheet name="Sheet3" defaultColumnWidth="48pt" defaultRowHeight="14.25pt">
+      <columnStyles />
+      <rowStyles />
+      <styles />
+      <mergedCells />
+      <columns />
+      <data />
+      <hyperlinks />
+      <drawing />
+    </worksheet>
+  </worksheets>
+  <resources>
+    <sharedStrings>
+      <s n="1">Name</s>
+      <s n="2">Age</s>
+      <s n="3">Position</s>
+      <s n="4">City</s>
+      <s n="5">Country</s>
+      <s n="6">Salary (USD)</s>
+      <s n="7">Marie Delamare</s>
+      <s n="8">Purchasing Manager</s>
+      <s n="9">Paris</s>
+      <s n="10">France</s>
+      <s n="11">Charlotte Cooper</s>
+      <s n="12">Order Administrator</s>
+      <s n="13">London</s>
+      <s n="14">UK</s>
+      <s n="15">Scott Andrew</s>
+      <s n="16">Sales Representative</s>
+      <s n="17">New York</s>
+      <s n="18">USA</s>
+      <s n="19">Peter Wilson</s>
+      <s n="20">Marketing Manager</s>
+      <s n="21">Mayumi Ohno</s>
+      <s n="22">Export Administrator</s>
+      <s n="23">Osaka</s>
+      <s n="24">Japan</s>
+      <s n="25">Regina Murphy</s>
+      <s n="26">Marketing Representative</s>
+      <s n="27">Shelley Burke</s>
+      <s n="28">Los Angeles</s>
+      <s n="29">Robb Merchant</s>
+      <s n="30">Carlos Diaz</s>
+      <s n="31">Sales Agent</s>
+      <s n="32">São Paulo</s>
+      <s n="33">Brazil</s>
+      <s n="34">Petra Winkler</s>
+      <s n="35">Frankfurt</s>
+      <s n="36">Germany</s>
+      <s n="37">William Bones</s>
+      <s n="38">Sales Manager</s>
+      <s n="39">Manchester</s>
+      <s n="40">Eliane Noz</s>
+      <s n="41">Cheryl Saylor</s>
+      <s n="42">George Doe</s>
+      <s n="43">Owner</s>
+      <s n="44">Birmingham</s>
+      <s n="45">Michael Björn</s>
+      <s n="46">Stockholm</s>
+      <s n="47">Sweden</s>
+      <s n="48">Martin Bein</s>
+      <s n="49">Accounting Manager</s>
+      <s n="50">Berlin</s>
+      <s n="51">Jean-Guy Lauzon</s>
+      <s n="52">Product Manager</s>
+      <s n="53">Boston</s>
+    </sharedStrings>
+    <brushes>
+      <brush n="0" t="solid">
+        <color>#FFF0F8FF</color>
+      </brush>
+    </brushes>
+    <images />
+  </resources>
+  <namedRanges />
+</workbook>

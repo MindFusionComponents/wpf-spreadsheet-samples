@@ -1,0 +1,903 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<workbook>
+  <worksheets>
+    <worksheet name="Sheet1" defaultColumnWidth="48pt" defaultRowHeight="14.25pt">
+      <columnStyles>
+        <region>
+          <lines>
+            <l ymin="0" ymax="1">
+              <segments>
+                <s p="2" s="1" />
+                <s p="3" s="0" />
+              </segments>
+            </l>
+          </lines>
+          <bounds x="2" y="0" width="1" height="1" />
+          <style t="1">
+            <width>82.5pt</width>
+            <name></name>
+            <conditionalFormats />
+          </style>
+        </region>
+        <region>
+          <lines>
+            <l ymin="0" ymax="1">
+              <segments>
+                <s p="1" s="1" />
+                <s p="2" s="0" />
+              </segments>
+            </l>
+          </lines>
+          <bounds x="1" y="0" width="1" height="1" />
+          <style t="1">
+            <width>78pt</width>
+            <name></name>
+            <conditionalFormats />
+          </style>
+        </region>
+        <region>
+          <lines>
+            <l ymin="0" ymax="1">
+              <segments>
+                <s p="3" s="1" />
+                <s p="4" s="0" />
+              </segments>
+            </l>
+          </lines>
+          <bounds x="3" y="0" width="1" height="1" />
+          <style t="1">
+            <width>30.75pt</width>
+            <name></name>
+            <conditionalFormats />
+          </style>
+        </region>
+      </columnStyles>
+      <rowStyles>
+        <region>
+          <lines>
+            <l ymin="0" ymax="1">
+              <segments>
+                <s p="1" s="1" />
+                <s p="2" s="0" />
+              </segments>
+            </l>
+          </lines>
+          <bounds x="1" y="0" width="1" height="1" />
+          <style t="2">
+            <height>23.25pt</height>
+            <name></name>
+            <conditionalFormats />
+          </style>
+        </region>
+        <region>
+          <lines>
+            <l ymin="0" ymax="1">
+              <segments>
+                <s p="11" s="1" />
+                <s p="12" s="0" />
+              </segments>
+            </l>
+          </lines>
+          <bounds x="11" y="0" width="1" height="1" />
+          <style t="2">
+            <height>23.25pt</height>
+            <name></name>
+            <conditionalFormats />
+          </style>
+        </region>
+      </rowStyles>
+      <styles>
+        <region>
+          <lines>
+            <l ymin="1" ymax="2">
+              <segments>
+                <s p="1" s="1" />
+                <s p="3" s="0" />
+              </segments>
+            </l>
+          </lines>
+          <bounds x="1" y="1" width="2" height="1" />
+          <style t="0">
+            <name></name>
+            <conditionalFormats />
+            <bottomColor>#FF000000</bottomColor>
+            <bottomSize>1px</bottomSize>
+            <bottomStyle>0</bottomStyle>
+            <leftColor>#FF000000</leftColor>
+            <leftSize>2px</leftSize>
+            <leftStyle>0</leftStyle>
+            <topColor>#FF000000</topColor>
+            <topSize>2px</topSize>
+            <topStyle>0</topStyle>
+            <rightColor>#FF000000</rightColor>
+            <rightSize>2px</rightSize>
+            <rightStyle>0</rightStyle>
+            <fontSize>14</fontSize>
+            <fontBold>1</fontBold>
+          </style>
+        </region>
+        <region>
+          <lines>
+            <l ymin="9" ymax="10">
+              <segments>
+                <s p="2" s="1" />
+                <s p="3" s="0" />
+              </segments>
+            </l>
+          </lines>
+          <bounds x="2" y="9" width="1" height="1" />
+          <style t="0">
+            <name></name>
+            <conditionalFormats />
+            <bottomColor>#FF000000</bottomColor>
+            <bottomSize>2px</bottomSize>
+            <bottomStyle>0</bottomStyle>
+            <leftColor>#FF000000</leftColor>
+            <leftSize>1px</leftSize>
+            <leftStyle>0</leftStyle>
+            <topColor>#FF000000</topColor>
+            <topSize>1px</topSize>
+            <topStyle>0</topStyle>
+            <rightColor>#FF000000</rightColor>
+            <rightSize>2px</rightSize>
+            <rightStyle>0</rightStyle>
+            <fontBold>1</fontBold>
+          </style>
+        </region>
+        <region>
+          <lines>
+            <l ymin="3" ymax="4">
+              <segments>
+                <s p="2" s="1" />
+                <s p="3" s="0" />
+              </segments>
+            </l>
+          </lines>
+          <bounds x="2" y="3" width="1" height="1" />
+          <style t="0">
+            <name></name>
+            <conditionalFormats />
+            <bottomColor>#FF000000</bottomColor>
+            <bottomSize>1px</bottomSize>
+            <bottomStyle>0</bottomStyle>
+            <leftColor>#FF000000</leftColor>
+            <leftSize>1px</leftSize>
+            <leftStyle>0</leftStyle>
+            <topColor>#FF000000</topColor>
+            <topSize>1px</topSize>
+            <topStyle>0</topStyle>
+            <rightColor>#FF000000</rightColor>
+            <rightSize>2px</rightSize>
+            <rightStyle>0</rightStyle>
+            <background id="0" />
+            <format>[$$-409]#,##0.00;([$$-409]#,##0.00)</format>
+          </style>
+        </region>
+        <region>
+          <lines>
+            <l ymin="5" ymax="6">
+              <segments>
+                <s p="2" s="1" />
+                <s p="3" s="0" />
+              </segments>
+            </l>
+          </lines>
+          <bounds x="2" y="5" width="1" height="1" />
+          <style t="0">
+            <name></name>
+            <conditionalFormats />
+            <bottomColor>#FF000000</bottomColor>
+            <bottomSize>1px</bottomSize>
+            <bottomStyle>0</bottomStyle>
+            <leftColor>#FF000000</leftColor>
+            <leftSize>1px</leftSize>
+            <leftStyle>0</leftStyle>
+            <topColor>#FF000000</topColor>
+            <topSize>1px</topSize>
+            <topStyle>0</topStyle>
+            <rightColor>#FF000000</rightColor>
+            <rightSize>2px</rightSize>
+            <rightStyle>0</rightStyle>
+            <format>[$$-409]#,##0.00;([$$-409]#,##0.00)</format>
+          </style>
+        </region>
+        <region>
+          <lines>
+            <l ymin="6" ymax="7">
+              <segments>
+                <s p="2" s="1" />
+                <s p="3" s="0" />
+              </segments>
+            </l>
+          </lines>
+          <bounds x="2" y="6" width="1" height="1" />
+          <style t="0">
+            <name></name>
+            <conditionalFormats />
+            <bottomColor>#FF000000</bottomColor>
+            <bottomSize>1px</bottomSize>
+            <bottomStyle>0</bottomStyle>
+            <leftColor>#FF000000</leftColor>
+            <leftSize>1px</leftSize>
+            <leftStyle>0</leftStyle>
+            <topColor>#FF000000</topColor>
+            <topSize>1px</topSize>
+            <topStyle>0</topStyle>
+            <rightColor>#FF000000</rightColor>
+            <rightSize>2px</rightSize>
+            <rightStyle>0</rightStyle>
+            <background id="0" />
+            <format>0.00%</format>
+          </style>
+        </region>
+        <region>
+          <lines>
+            <l ymin="4" ymax="5">
+              <segments>
+                <s p="2" s="1" />
+                <s p="3" s="0" />
+              </segments>
+            </l>
+          </lines>
+          <bounds x="2" y="4" width="1" height="1" />
+          <style t="0">
+            <name></name>
+            <conditionalFormats />
+            <bottomColor>#FF000000</bottomColor>
+            <bottomSize>1px</bottomSize>
+            <bottomStyle>0</bottomStyle>
+            <leftColor>#FF000000</leftColor>
+            <leftSize>1px</leftSize>
+            <leftStyle>0</leftStyle>
+            <topColor>#FF000000</topColor>
+            <topSize>1px</topSize>
+            <topStyle>0</topStyle>
+            <rightColor>#FF000000</rightColor>
+            <rightSize>2px</rightSize>
+            <rightStyle>0</rightStyle>
+            <background id="0" />
+            <format>0.00%</format>
+          </style>
+        </region>
+        <region>
+          <lines>
+            <l ymin="2" ymax="3">
+              <segments>
+                <s p="1" s="1" />
+                <s p="3" s="0" />
+              </segments>
+            </l>
+          </lines>
+          <bounds x="1" y="2" width="2" height="1" />
+          <style t="0">
+            <name></name>
+            <conditionalFormats />
+            <bottomColor>#FF000000</bottomColor>
+            <bottomSize>1px</bottomSize>
+            <bottomStyle>0</bottomStyle>
+            <leftColor>#FF000000</leftColor>
+            <leftSize>2px</leftSize>
+            <leftStyle>0</leftStyle>
+            <topColor>#FF000000</topColor>
+            <topSize>1px</topSize>
+            <topStyle>0</topStyle>
+            <rightColor>#FF000000</rightColor>
+            <rightSize>2px</rightSize>
+            <rightStyle>0</rightStyle>
+          </style>
+        </region>
+        <region>
+          <lines>
+            <l ymin="3" ymax="8">
+              <segments>
+                <s p="1" s="1" />
+                <s p="2" s="0" />
+              </segments>
+            </l>
+          </lines>
+          <bounds x="1" y="3" width="1" height="5" />
+          <style t="0">
+            <name></name>
+            <conditionalFormats />
+            <bottomColor>#FF000000</bottomColor>
+            <bottomSize>1px</bottomSize>
+            <bottomStyle>0</bottomStyle>
+            <leftColor>#FF000000</leftColor>
+            <leftSize>2px</leftSize>
+            <leftStyle>0</leftStyle>
+            <topColor>#FF000000</topColor>
+            <topSize>1px</topSize>
+            <topStyle>0</topStyle>
+            <rightColor>#FF000000</rightColor>
+            <rightSize>1px</rightSize>
+            <rightStyle>0</rightStyle>
+          </style>
+        </region>
+        <region>
+          <lines>
+            <l ymin="7" ymax="8">
+              <segments>
+                <s p="2" s="1" />
+                <s p="3" s="0" />
+              </segments>
+            </l>
+          </lines>
+          <bounds x="2" y="7" width="1" height="1" />
+          <style t="0">
+            <name></name>
+            <conditionalFormats />
+            <bottomColor>#FF000000</bottomColor>
+            <bottomSize>1px</bottomSize>
+            <bottomStyle>0</bottomStyle>
+            <leftColor>#FF000000</leftColor>
+            <leftSize>1px</leftSize>
+            <leftStyle>0</leftStyle>
+            <topColor>#FF000000</topColor>
+            <topSize>1px</topSize>
+            <topStyle>0</topStyle>
+            <rightColor>#FF000000</rightColor>
+            <rightSize>2px</rightSize>
+            <rightStyle>0</rightStyle>
+            <background id="0" />
+          </style>
+        </region>
+        <region>
+          <lines>
+            <l ymin="8" ymax="9">
+              <segments>
+                <s p="1" s="1" />
+                <s p="3" s="0" />
+              </segments>
+            </l>
+          </lines>
+          <bounds x="1" y="8" width="2" height="1" />
+          <style t="0">
+            <name></name>
+            <conditionalFormats />
+            <bottomColor>#FF000000</bottomColor>
+            <bottomSize>1px</bottomSize>
+            <bottomStyle>0</bottomStyle>
+            <leftColor>#FF000000</leftColor>
+            <leftSize>2px</leftSize>
+            <leftStyle>0</leftStyle>
+            <topColor>#FF000000</topColor>
+            <topSize>1px</topSize>
+            <topStyle>0</topStyle>
+            <rightColor>#FF000000</rightColor>
+            <rightSize>2px</rightSize>
+            <rightStyle>0</rightStyle>
+          </style>
+        </region>
+        <region>
+          <lines>
+            <l ymin="9" ymax="10">
+              <segments>
+                <s p="1" s="1" />
+                <s p="2" s="0" />
+              </segments>
+            </l>
+          </lines>
+          <bounds x="1" y="9" width="1" height="1" />
+          <style t="0">
+            <name></name>
+            <conditionalFormats />
+            <bottomColor>#FF000000</bottomColor>
+            <bottomSize>2px</bottomSize>
+            <bottomStyle>0</bottomStyle>
+            <leftColor>#FF000000</leftColor>
+            <leftSize>2px</leftSize>
+            <leftStyle>0</leftStyle>
+            <topColor>#FF000000</topColor>
+            <topSize>1px</topSize>
+            <topStyle>0</topStyle>
+            <rightColor>#FF000000</rightColor>
+            <rightSize>1px</rightSize>
+            <rightStyle>0</rightStyle>
+          </style>
+        </region>
+        <region>
+          <lines>
+            <l ymin="11" ymax="12">
+              <segments>
+                <s p="1" s="1" />
+                <s p="3" s="0" />
+              </segments>
+            </l>
+          </lines>
+          <bounds x="1" y="11" width="2" height="1" />
+          <style t="0">
+            <name></name>
+            <conditionalFormats />
+            <bottomColor>#FF000000</bottomColor>
+            <bottomSize>1px</bottomSize>
+            <bottomStyle>0</bottomStyle>
+            <leftColor>#FF000000</leftColor>
+            <leftSize>2px</leftSize>
+            <leftStyle>0</leftStyle>
+            <topColor>#FF000000</topColor>
+            <topSize>2px</topSize>
+            <topStyle>0</topStyle>
+            <rightColor>#FF000000</rightColor>
+            <rightSize>2px</rightSize>
+            <rightStyle>0</rightStyle>
+            <fontSize>14</fontSize>
+            <fontBold>1</fontBold>
+          </style>
+        </region>
+        <region>
+          <lines>
+            <l ymin="11" ymax="12">
+              <segments>
+                <s p="3" s="1" />
+                <s p="4" s="0" />
+              </segments>
+            </l>
+          </lines>
+          <bounds x="3" y="11" width="1" height="1" />
+          <style t="0">
+            <name></name>
+            <conditionalFormats />
+            <bottomColor>#FF000000</bottomColor>
+            <bottomSize>1px</bottomSize>
+            <bottomStyle>0</bottomStyle>
+            <leftColor>#FF000000</leftColor>
+            <leftSize>2px</leftSize>
+            <leftStyle>0</leftStyle>
+            <topColor>#FF000000</topColor>
+            <topSize>2px</topSize>
+            <topStyle>0</topStyle>
+            <rightColor>#FF000000</rightColor>
+            <rightSize>2px</rightSize>
+            <rightStyle>0</rightStyle>
+          </style>
+        </region>
+        <region>
+          <lines>
+            <l ymin="13" ymax="16">
+              <segments>
+                <s p="1" s="1" />
+                <s p="2" s="0" />
+              </segments>
+            </l>
+          </lines>
+          <bounds x="1" y="13" width="1" height="3" />
+          <style t="0">
+            <name></name>
+            <conditionalFormats />
+            <bottomColor>#FF000000</bottomColor>
+            <bottomSize>1px</bottomSize>
+            <bottomStyle>0</bottomStyle>
+            <leftColor>#FF000000</leftColor>
+            <leftSize>2px</leftSize>
+            <leftStyle>0</leftStyle>
+            <topColor>#FF000000</topColor>
+            <topSize>1px</topSize>
+            <topStyle>0</topStyle>
+            <rightColor>#FF000000</rightColor>
+            <rightSize>1px</rightSize>
+            <rightStyle>0</rightStyle>
+            <halign>2</halign>
+          </style>
+        </region>
+        <region>
+          <lines>
+            <l ymin="19" ymax="20">
+              <segments>
+                <s p="1" s="1" />
+                <s p="2" s="0" />
+              </segments>
+            </l>
+          </lines>
+          <bounds x="1" y="19" width="1" height="1" />
+          <style t="0">
+            <name></name>
+            <conditionalFormats />
+            <bottomColor>#FF000000</bottomColor>
+            <bottomSize>2px</bottomSize>
+            <bottomStyle>0</bottomStyle>
+            <leftColor>#FF000000</leftColor>
+            <leftSize>2px</leftSize>
+            <leftStyle>0</leftStyle>
+            <topColor>#FF000000</topColor>
+            <topSize>1px</topSize>
+            <topStyle>0</topStyle>
+            <rightColor>#FF000000</rightColor>
+            <rightSize>1px</rightSize>
+            <rightStyle>0</rightStyle>
+            <halign>2</halign>
+          </style>
+        </region>
+        <region>
+          <lines>
+            <l ymin="13" ymax="16">
+              <segments>
+                <s p="2" s="1" />
+                <s p="4" s="0" />
+              </segments>
+            </l>
+          </lines>
+          <bounds x="2" y="13" width="2" height="3" />
+          <style t="0">
+            <name></name>
+            <conditionalFormats />
+            <bottomColor>#FF000000</bottomColor>
+            <bottomSize>1px</bottomSize>
+            <bottomStyle>0</bottomStyle>
+            <leftColor>#FF000000</leftColor>
+            <leftSize>1px</leftSize>
+            <leftStyle>0</leftStyle>
+            <topColor>#FF000000</topColor>
+            <topSize>1px</topSize>
+            <topStyle>0</topStyle>
+            <rightColor>#FF000000</rightColor>
+            <rightSize>2px</rightSize>
+            <rightStyle>0</rightStyle>
+            <background id="0" />
+            <halign>2</halign>
+          </style>
+        </region>
+        <region>
+          <lines>
+            <l ymin="19" ymax="20">
+              <segments>
+                <s p="2" s="1" />
+                <s p="4" s="0" />
+              </segments>
+            </l>
+          </lines>
+          <bounds x="2" y="19" width="2" height="1" />
+          <style t="0">
+            <name></name>
+            <conditionalFormats />
+            <bottomColor>#FF000000</bottomColor>
+            <bottomSize>2px</bottomSize>
+            <bottomStyle>0</bottomStyle>
+            <leftColor>#FF000000</leftColor>
+            <leftSize>1px</leftSize>
+            <leftStyle>0</leftStyle>
+            <topColor>#FF000000</topColor>
+            <topSize>1px</topSize>
+            <topStyle>0</topStyle>
+            <rightColor>#FF000000</rightColor>
+            <rightSize>2px</rightSize>
+            <rightStyle>0</rightStyle>
+            <fontBold>1</fontBold>
+            <halign>2</halign>
+          </style>
+        </region>
+        <region>
+          <lines>
+            <l ymin="12" ymax="13">
+              <segments>
+                <s p="1" s="1" />
+                <s p="4" s="0" />
+              </segments>
+            </l>
+          </lines>
+          <bounds x="1" y="12" width="3" height="1" />
+          <style t="0">
+            <name></name>
+            <conditionalFormats />
+            <bottomColor>#FF000000</bottomColor>
+            <bottomSize>1px</bottomSize>
+            <bottomStyle>0</bottomStyle>
+            <leftColor>#FF000000</leftColor>
+            <leftSize>2px</leftSize>
+            <leftStyle>0</leftStyle>
+            <topColor>#FF000000</topColor>
+            <topSize>1px</topSize>
+            <topStyle>0</topStyle>
+            <rightColor>#FF000000</rightColor>
+            <rightSize>2px</rightSize>
+            <rightStyle>0</rightStyle>
+            <halign>2</halign>
+          </style>
+        </region>
+        <region>
+          <lines>
+            <l ymin="17" ymax="18">
+              <segments>
+                <s p="1" s="1" />
+                <s p="2" s="0" />
+              </segments>
+            </l>
+          </lines>
+          <bounds x="1" y="17" width="1" height="1" />
+          <style t="0">
+            <name></name>
+            <conditionalFormats />
+            <bottomColor>#FF000000</bottomColor>
+            <bottomSize>1px</bottomSize>
+            <bottomStyle>0</bottomStyle>
+            <leftColor>#FF000000</leftColor>
+            <leftSize>2px</leftSize>
+            <leftStyle>0</leftStyle>
+            <topColor>#FF000000</topColor>
+            <topSize>1px</topSize>
+            <topStyle>0</topStyle>
+            <rightColor>#FF000000</rightColor>
+            <rightSize>1px</rightSize>
+            <rightStyle>0</rightStyle>
+            <fontName>Symbol</fontName>
+            <halign>2</halign>
+          </style>
+        </region>
+        <region>
+          <lines>
+            <l ymin="18" ymax="19">
+              <segments>
+                <s p="2" s="1" />
+                <s p="4" s="0" />
+              </segments>
+            </l>
+          </lines>
+          <bounds x="2" y="18" width="2" height="1" />
+          <style t="0">
+            <name></name>
+            <conditionalFormats />
+            <bottomColor>#FF000000</bottomColor>
+            <bottomSize>1px</bottomSize>
+            <bottomStyle>0</bottomStyle>
+            <leftColor>#FF000000</leftColor>
+            <leftSize>1px</leftSize>
+            <leftStyle>0</leftStyle>
+            <topColor>#FF000000</topColor>
+            <topSize>1px</topSize>
+            <topStyle>0</topStyle>
+            <rightColor>#FF000000</rightColor>
+            <rightSize>2px</rightSize>
+            <rightStyle>0</rightStyle>
+            <fontBold>1</fontBold>
+            <halign>2</halign>
+          </style>
+        </region>
+        <region>
+          <lines>
+            <l ymin="16" ymax="17">
+              <segments>
+                <s p="1" s="1" />
+                <s p="4" s="0" />
+              </segments>
+            </l>
+          </lines>
+          <bounds x="1" y="16" width="3" height="1" />
+          <style t="0">
+            <name></name>
+            <conditionalFormats />
+            <bottomColor>#FF000000</bottomColor>
+            <bottomSize>1px</bottomSize>
+            <bottomStyle>0</bottomStyle>
+            <leftColor>#FF000000</leftColor>
+            <leftSize>2px</leftSize>
+            <leftStyle>0</leftStyle>
+            <topColor>#FF000000</topColor>
+            <topSize>1px</topSize>
+            <topStyle>0</topStyle>
+            <rightColor>#FF000000</rightColor>
+            <rightSize>2px</rightSize>
+            <rightStyle>0</rightStyle>
+            <fontItalic>1</fontItalic>
+            <halign>2</halign>
+          </style>
+        </region>
+        <region>
+          <lines>
+            <l ymin="18" ymax="19">
+              <segments>
+                <s p="1" s="1" />
+                <s p="2" s="0" />
+              </segments>
+            </l>
+          </lines>
+          <bounds x="1" y="18" width="1" height="1" />
+          <style t="0">
+            <name></name>
+            <conditionalFormats />
+            <bottomColor>#FF000000</bottomColor>
+            <bottomSize>1px</bottomSize>
+            <bottomStyle>0</bottomStyle>
+            <leftColor>#FF000000</leftColor>
+            <leftSize>2px</leftSize>
+            <leftStyle>0</leftStyle>
+            <topColor>#FF000000</topColor>
+            <topSize>1px</topSize>
+            <topStyle>0</topStyle>
+            <rightColor>#FF000000</rightColor>
+            <rightSize>1px</rightSize>
+            <rightStyle>0</rightStyle>
+            <halign>2</halign>
+          </style>
+        </region>
+        <region>
+          <lines>
+            <l ymin="17" ymax="18">
+              <segments>
+                <s p="2" s="1" />
+                <s p="4" s="0" />
+              </segments>
+            </l>
+          </lines>
+          <bounds x="2" y="17" width="2" height="1" />
+          <style t="0">
+            <name></name>
+            <conditionalFormats />
+            <bottomColor>#FF000000</bottomColor>
+            <bottomSize>1px</bottomSize>
+            <bottomStyle>0</bottomStyle>
+            <leftColor>#FF000000</leftColor>
+            <leftSize>1px</leftSize>
+            <leftStyle>0</leftStyle>
+            <topColor>#FF000000</topColor>
+            <topSize>1px</topSize>
+            <topStyle>0</topStyle>
+            <rightColor>#FF000000</rightColor>
+            <rightSize>2px</rightSize>
+            <rightStyle>0</rightStyle>
+            <halign>2</halign>
+          </style>
+        </region>
+      </styles>
+      <mergedCells>
+        <mergedCell left="1" top="1" right="2" bottom="1" />
+        <mergedCell left="1" top="2" right="2" bottom="2" />
+        <mergedCell left="1" top="8" right="2" bottom="8" />
+        <mergedCell left="1" top="11" right="3" bottom="11" />
+        <mergedCell left="1" top="12" right="3" bottom="12" />
+        <mergedCell left="1" top="16" right="3" bottom="16" />
+        <mergedCell left="2" top="13" right="3" bottom="13" />
+        <mergedCell left="2" top="14" right="3" bottom="14" />
+        <mergedCell left="2" top="15" right="3" bottom="15" />
+        <mergedCell left="2" top="17" right="3" bottom="17" />
+        <mergedCell left="2" top="18" right="3" bottom="18" />
+        <mergedCell left="2" top="19" right="3" bottom="19" />
+      </mergedCells>
+      <columns />
+      <data>
+        <row r="1">
+          <c c="1">
+            <v t="23">1</v>
+          </c>
+        </row>
+        <row r="3">
+          <c c="1">
+            <v t="23">2</v>
+          </c>
+          <c c="2">
+            <v t="17">50000</v>
+          </c>
+        </row>
+        <row r="4">
+          <c c="1">
+            <v t="23">3</v>
+          </c>
+          <c c="2">
+            <v t="17">0.2</v>
+          </c>
+        </row>
+        <row r="5">
+          <c c="1">
+            <v t="23">4</v>
+          </c>
+          <c c="2">
+            <v t="1">5</v>
+          </c>
+        </row>
+        <row r="6">
+          <c c="1">
+            <v t="23">6</v>
+          </c>
+          <c c="2">
+            <v t="17">0.045</v>
+          </c>
+        </row>
+        <row r="7">
+          <c c="1">
+            <v t="23">7</v>
+          </c>
+          <c c="2">
+            <v t="17">6</v>
+          </c>
+        </row>
+        <row r="9">
+          <c c="1">
+            <v t="23">8</v>
+          </c>
+          <c c="2">
+            <v t="1">9</v>
+          </c>
+        </row>
+        <row r="11">
+          <c c="1">
+            <v t="23">10</v>
+          </c>
+        </row>
+        <row r="13">
+          <c c="1">
+            <v t="23">11</v>
+          </c>
+          <c c="2">
+            <v t="17">1</v>
+          </c>
+        </row>
+        <row r="14">
+          <c c="1">
+            <v t="23">12</v>
+          </c>
+          <c c="2">
+            <v t="17">-2</v>
+          </c>
+        </row>
+        <row r="15">
+          <c c="1">
+            <v t="23">13</v>
+          </c>
+          <c c="2">
+            <v t="17">-3</v>
+          </c>
+        </row>
+        <row r="16">
+          <c c="1">
+            <v t="1">14</v>
+          </c>
+        </row>
+        <row r="17">
+          <c c="1">
+            <v t="23">15</v>
+          </c>
+          <c c="2">
+            <v t="1">16</v>
+          </c>
+        </row>
+        <row r="18">
+          <c c="1">
+            <v t="23">17</v>
+          </c>
+          <c c="2">
+            <v t="1">18</v>
+          </c>
+        </row>
+        <row r="19">
+          <c c="1">
+            <v t="23">19</v>
+          </c>
+          <c c="2">
+            <v t="1">20</v>
+          </c>
+        </row>
+      </data>
+      <hyperlinks />
+      <drawing />
+    </worksheet>
+  </worksheets>
+  <resources>
+    <sharedStrings>
+      <s n="1">Simple Loan Calculator</s>
+      <s n="2">Price</s>
+      <s n="3">Downpayment</s>
+      <s n="4">Principal</s>
+      <s n="5">=C4*(1-C5)</s>
+      <s n="6">Interest</s>
+      <s n="7">Years</s>
+      <s n="8">Monthly payment</s>
+      <s n="9">=PMT(C7/12;C8*12;C6)</s>
+      <s n="10">Quadratic Equations Solver</s>
+      <s n="11">a</s>
+      <s n="12">b</s>
+      <s n="13">c</s>
+      <s n="14">=CONCATENATE(IF(C14=0;;CONCATENATE(IF(C14=-1;"-";IF(C14=1;;C14)),"x^2")),CONCATENATE(IF(C15=0;;IF(C15&lt;0;" - ";" + "))),CONCATENATE(IF(C15=0;;CONCATENATE(IF(ABS(C15)=1;;ABS(C15)),"x"))),IF(C16=0;;CONCATENATE(IF(C16&lt;0;" - ";" + "),ABS(C16)))," = 0")</s>
+      <s n="15">D</s>
+      <s n="16">=POWER(C15, 2) - 4 * C14 * C16</s>
+      <s n="17">x1</s>
+      <s n="18">=IF(C14=0;(-C16/C15);IF(C18&lt;0;"No real roots"; IF(C18=0; -(C15/2/C14);(-C15+SQRT(C18))/2/C14)))</s>
+      <s n="19">x2</s>
+      <s n="20">=IF(C14=0;(-C16/C15);IF(C18&lt;0;"No real roots"; IF(C18=0; -(C15/2/C14);(-C15-SQRT(C18))/2/C14)))</s>
+    </sharedStrings>
+    <brushes>
+      <brush n="0" t="solid">
+        <color>#FFFFFF00</color>
+      </brush>
+    </brushes>
+    <images />
+  </resources>
+  <namedRanges />
+</workbook>

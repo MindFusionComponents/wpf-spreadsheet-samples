@@ -1,0 +1,31 @@
+﻿<UserControl x:Class="MindFusion.Spreadsheet.Wpf.Samples.CS.Features.MergingPanel"
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:ss="http://mindfusion.eu/spreadsheet/wpf"
+	Background="White"
+	mc:Ignorable="d" d:DesignHeight="300" d:DesignWidth="500">
+
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition />
+			<RowDefinition Height="Auto" />
+		</Grid.RowDefinitions>
+
+		<ss:WorkbookView x:Name="workbookView">
+			<ss:Workbook x:Name="workbook" />
+		</ss:WorkbookView>
+
+		<Grid Grid.Row="1">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition />
+				<ColumnDefinition Width="Auto" />
+			</Grid.ColumnDefinitions>
+			<TextBlock Text="Select a range of cells in the worksheet and press the 'Merge / Unmerge' button." TextWrapping="Wrap" Margin="5" />
+			<Button Name="mergeUnmergeButton" Width="150" Margin="5" Content="Merge / Unmerge" Grid.Column="1" VerticalAlignment="Top" Click="mergeUnmergeButton_Click" />
+		</Grid>
+
+	</Grid>
+
+</UserControl>

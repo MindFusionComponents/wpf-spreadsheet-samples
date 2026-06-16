@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>CustomFunctions</AssemblyName>
+    <RootNamespace>MindFusion.Spreadsheet.Wpf.Samples.CS.CustomFunctions</RootNamespace>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="CustomFunctionInformation.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CustomFunctionInformation.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MindFusion.Spreadsheet.Wpf" Version="1.4.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="App.ico" />
+  </ItemGroup>
+</Project>

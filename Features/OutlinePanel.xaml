@@ -1,0 +1,44 @@
+﻿<UserControl x:Class="MindFusion.Spreadsheet.Wpf.Samples.CS.Features.OutlinePanel"
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:ss="http://mindfusion.eu/spreadsheet/wpf"
+	Background="White"
+	mc:Ignorable="d" d:DesignHeight="300" d:DesignWidth="500">
+
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition />
+			<RowDefinition Height="Auto" />
+		</Grid.RowDefinitions>
+
+		<ss:WorkbookView x:Name="workbookView">
+			<ss:Workbook x:Name="workbook" />
+		</ss:WorkbookView>
+
+		<Grid Grid.Row="1">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition />
+				<ColumnDefinition Width="Auto" />
+			</Grid.ColumnDefinitions>
+			<TextBlock Text="Click the Group and Ungroup buttons to respectively group and ungroup the currently selected rows and columns." TextWrapping="Wrap" Margin="5" />
+			<Grid Grid.Column="1" Margin="5">
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition />
+					<ColumnDefinition />
+				</Grid.ColumnDefinitions>
+				<Grid.RowDefinitions>
+					<RowDefinition />
+					<RowDefinition />
+				</Grid.RowDefinitions>
+				<Button Name="groupRowsButton" Margin="0,0,5,5" Click="groupRowsButton_Click">Group rows</Button>
+				<Button Name="groupColumnsButton" Grid.Column="1" Margin="0,0,0,5" Click="groupColumnsButton_Click">Group columns</Button>
+				<Button Name="ungroupRowsButton" Grid.Row="1" Margin="0,0,5,5" Click="ungroupRowsButton_Click">Ungroup rows</Button>
+				<Button Name="ungroupColumnsButton" Grid.Row="1" Grid.Column="1" Margin="0,0,0,5" Click="ungroupColumnsButton_Click">Ungroup columns</Button>
+			</Grid>
+		</Grid>
+
+	</Grid>
+
+</UserControl>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<functions>
+	<function name="EASTER">
+		<summary>Calculates the date of Easter Sunday for the current year.</summary>
+		<parameters>
+			<parameter name="year">
+				<summary>The year for which to calculate Easter Sunday.</summary>
+			</parameter>
+		</parameters>
+	</function>
+	<function name="CLENGTH">
+		<summary>Calculates the circumference of a circle, given its radius.</summary>
+		<parameters>
+			<parameter name="r">
+				<summary>The radius of the circle.</summary>
+			</parameter>
+		</parameters>
+	</function>
+	<function name="CAREA">
+		<summary>Calculates the area of a circle, given its radius.</summary>
+		<parameters>
+			<parameter name="r">
+				<summary>The radius of the circle.</summary>
+			</parameter>
+		</parameters>
+	</function>
+</functions>

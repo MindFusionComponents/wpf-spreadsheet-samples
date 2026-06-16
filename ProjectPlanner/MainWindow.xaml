@@ -1,0 +1,29 @@
+﻿<Window x:Class="MindFusion.Spreadsheet.Wpf.Samples.CS.ProjectPlanner.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+				xmlns:ss="http://mindfusion.eu/spreadsheet/wpf"
+        Title="MindFusion.Spreadsheet for WPF Sample: Project Planner" Height="350" Width="525" WindowState="Maximized" Icon="/ProjectPlanner;component/App.ico">
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto" />
+			<RowDefinition />
+			<RowDefinition Height="Auto" />
+		</Grid.RowDefinitions>
+
+		<Menu>
+			<MenuItem Header="_File">
+				<MenuItem Name="printMenu" Header="_Print..." Click="printMenu_Click" />
+				<MenuItem Name="exportMenu" Header="_Export to PDF..." Click="exportMenu_Click" />
+				<Separator />
+				<MenuItem Name="exitMenu" Header="E_xit" Click="exitMenu_Click" />
+			</MenuItem>
+		</Menu>
+
+		<ss:WorkbookView x:Name="workbookView" Grid.Row="1">
+			<ss:Workbook x:Name="workbook" />
+		</ss:WorkbookView>
+		
+		<TextBlock Text="To add a record to the planner, first input a project phase name in the first column, then add a start and end date. The duration of the phase will be marked in the calendar on the right and an empty record will be added." TextWrapping="Wrap" Margin="5" Grid.Row="2" />
+
+	</Grid>
+</Window>

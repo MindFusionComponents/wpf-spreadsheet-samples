@@ -1,0 +1,30 @@
+﻿<Window x:Class="MindFusion.Spreadsheet.Wpf.Samples.CS.InvoiceTemplate.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+				xmlns:ss="http://mindfusion.eu/spreadsheet/wpf"
+        Title="MindFusion.Spreadsheet for WPF Sample: Invoice Template" Height="350" Width="525" WindowState="Maximized" Icon="/InvoiceTemplate;component/App.ico">
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition />
+			<RowDefinition Height="Auto" />
+		</Grid.RowDefinitions>
+
+		<ss:WorkbookView x:Name="workbookView">
+			<ss:Workbook x:Name="workbook" />
+		</ss:WorkbookView>
+		
+		<Grid Grid.Row="1">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition />
+				<ColumnDefinition Width="Auto" />
+				<ColumnDefinition Width="Auto" />
+			</Grid.ColumnDefinitions>
+
+			<TextBlock Text="This sample demonstrates an invoice that can be edited and printed. Enter values in the grayed out fields. To add new products to the invoice, click the 'Add product' button. The extended price of each product and the total price of the invoice will be calculated automatically." TextWrapping="Wrap" Margin="5" />
+			<Button Content="Add product..." Margin="5" VerticalAlignment="Center" Grid.Column="1" Click="addButton_Click" />
+			<Button Content="Preview..." Margin="5" VerticalAlignment="Center" Grid.Column="2" Click="previewButton_Click" />
+
+		</Grid>
+
+	</Grid>
+</Window>

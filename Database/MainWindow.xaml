@@ -1,0 +1,13 @@
+﻿<Window x:Class="MindFusion.Spreadsheet.Wpf.Samples.CS.Database.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+				xmlns:ss="http://mindfusion.eu/spreadsheet/wpf"
+        Title="MindFusion.Spreadsheet for WPF Sample: Database" Height="350" Width="525" WindowState="Maximized" Icon="/Database;component/App.ico">
+	<Grid>
+
+		<ss:WorkbookView x:Name="workbookView" InplaceEditStarting="workbookView_InplaceEditStarting">
+			<ss:Workbook x:Name="workbook" WorksheetCellChanging="workbook_WorksheetCellChanging" WorksheetCellChanged="workbook_WorksheetCellChanged" />
+		</ss:WorkbookView>
+
+	</Grid>
+</Window>

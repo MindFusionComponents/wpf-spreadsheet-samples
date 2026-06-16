@@ -1,0 +1,37 @@
+﻿<UserControl x:Class="MindFusion.Spreadsheet.Wpf.Samples.CS.Features.EventsPanel"
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:ss="http://mindfusion.eu/spreadsheet/wpf"
+	Background="White"
+	mc:Ignorable="d" d:DesignHeight="300" d:DesignWidth="500">
+
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition />
+			<RowDefinition Height="Auto" />
+		</Grid.RowDefinitions>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition />
+			<ColumnDefinition Width="Auto" />
+		</Grid.ColumnDefinitions>
+
+		<ss:WorkbookView x:Name="workbookView">
+			<ss:Workbook x:Name="workbook" />
+		</ss:WorkbookView>
+
+		<DockPanel Grid.Column="1" Width="200" Margin="5,0,0,0">
+			<CheckBox Name="validation" DockPanel.Dock="Bottom" Margin="0,5,0,0" Content="Handle validation events" IsChecked="True" Checked="validation_Checked" Unchecked="validation_Unchecked" />
+			<ListView Name="events" />
+		</DockPanel>
+
+		<TextBlock Text="Interact with the view and handled events will be displayed in the list." TextWrapping="Wrap" Margin="5" Grid.Row="1" />
+		<StackPanel Orientation="Vertical" Grid.Column="1" Width="150" Margin="5" Grid.Row="1">
+			<Button Name="undoButton" Content="Undo" Click="undoButton_Click" />
+			<Button Name="redoButton" Content="Redo" Margin="0,5,0,0" Click="redoButton_Click" />
+		</StackPanel>
+
+	</Grid>
+
+</UserControl>

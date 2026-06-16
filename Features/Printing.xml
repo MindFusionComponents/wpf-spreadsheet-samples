@@ -1,0 +1,567 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<workbook>
+  <worksheets>
+    <worksheet name="Sheet1" defaultColumnWidth="48pt" defaultRowHeight="14.25pt">
+      <columnStyles>
+        <region>
+          <lines>
+            <l ymin="0" ymax="1">
+              <segments>
+                <s p="1" s="1" />
+                <s p="2" s="0" />
+              </segments>
+            </l>
+          </lines>
+          <bounds x="1" y="0" width="1" height="1" />
+          <style t="1">
+            <width>152.25pt</width>
+            <name></name>
+            <conditionalFormats />
+          </style>
+        </region>
+        <region>
+          <lines>
+            <l ymin="0" ymax="1">
+              <segments>
+                <s p="2" s="1" />
+                <s p="3" s="0" />
+              </segments>
+            </l>
+          </lines>
+          <bounds x="2" y="0" width="1" height="1" />
+          <style t="1">
+            <width>72.75pt</width>
+            <name></name>
+            <conditionalFormats />
+          </style>
+        </region>
+        <region>
+          <lines>
+            <l ymin="0" ymax="1">
+              <segments>
+                <s p="3" s="1" />
+                <s p="4" s="0" />
+              </segments>
+            </l>
+          </lines>
+          <bounds x="3" y="0" width="1" height="1" />
+          <style t="1">
+            <width>30pt</width>
+            <name></name>
+            <conditionalFormats />
+          </style>
+        </region>
+      </columnStyles>
+      <rowStyles>
+        <region>
+          <lines>
+            <l ymin="0" ymax="1">
+              <segments>
+                <s p="0" s="1" />
+                <s p="1048576" s="0" />
+              </segments>
+            </l>
+          </lines>
+          <bounds x="0" y="0" width="1048576" height="1" />
+          <style t="2">
+            <height>17pt</height>
+            <name></name>
+            <conditionalFormats />
+          </style>
+        </region>
+      </rowStyles>
+      <styles>
+        <region>
+          <lines>
+            <l ymin="2" ymax="3">
+              <segments>
+                <s p="1" s="1" />
+                <s p="4" s="0" />
+              </segments>
+            </l>
+          </lines>
+          <bounds x="1" y="2" width="3" height="1" />
+          <style t="0">
+            <name></name>
+            <conditionalFormats />
+            <bottomColor>#FF00008B</bottomColor>
+            <bottomSize>1px</bottomSize>
+            <bottomStyle>0</bottomStyle>
+            <leftColor>#FF00008B</leftColor>
+            <leftSize>1px</leftSize>
+            <leftStyle>0</leftStyle>
+            <topColor>#FF00008B</topColor>
+            <topSize>1px</topSize>
+            <topStyle>0</topStyle>
+            <rightColor>#FF00008B</rightColor>
+            <rightSize>1px</rightSize>
+            <rightStyle>0</rightStyle>
+            <background id="0" />
+            <fontName>Calibri</fontName>
+            <fontSize>11</fontSize>
+            <fontBold>1</fontBold>
+            <paddingBottom>3pt</paddingBottom>
+            <paddingLeft>3pt</paddingLeft>
+            <paddingRight>3pt</paddingRight>
+            <paddingTop>3pt</paddingTop>
+            <primaryDiagonalColor>#FF00008B</primaryDiagonalColor>
+            <secondaryDiagonalColor>#FF00008B</secondaryDiagonalColor>
+            <valign>2</valign>
+          </style>
+        </region>
+        <region>
+          <lines>
+            <l ymin="3" ymax="23">
+              <segments>
+                <s p="3" s="1" />
+                <s p="4" s="0" />
+              </segments>
+            </l>
+          </lines>
+          <bounds x="3" y="3" width="1" height="20" />
+          <style t="0">
+            <name></name>
+            <conditionalFormats>
+              <format>
+                <first></first>
+                <second>20</second>
+                <operator>8</operator>
+                <type>0</type>
+                <style>
+                  <name></name>
+                  <conditionalFormats />
+                  <background id="1" />
+                </style>
+              </format>
+            </conditionalFormats>
+            <bottomColor>#FF00008B</bottomColor>
+            <bottomSize>1px</bottomSize>
+            <bottomStyle>0</bottomStyle>
+            <leftColor>#FF00008B</leftColor>
+            <leftSize>1px</leftSize>
+            <leftStyle>0</leftStyle>
+            <topColor>#FF00008B</topColor>
+            <topSize>1px</topSize>
+            <topStyle>0</topStyle>
+            <rightColor>#FF00008B</rightColor>
+            <rightSize>1px</rightSize>
+            <rightStyle>0</rightStyle>
+            <fontName>Calibri</fontName>
+            <fontSize>11</fontSize>
+            <fontBold>1</fontBold>
+            <paddingBottom>3pt</paddingBottom>
+            <paddingLeft>3pt</paddingLeft>
+            <paddingRight>3pt</paddingRight>
+            <paddingTop>3pt</paddingTop>
+            <primaryDiagonalColor>#FF00008B</primaryDiagonalColor>
+            <secondaryDiagonalColor>#FF00008B</secondaryDiagonalColor>
+            <valign>2</valign>
+            <format>#,##0.00;(#,##0.00)</format>
+          </style>
+        </region>
+        <region>
+          <lines>
+            <l ymin="3" ymax="23">
+              <segments>
+                <s p="2" s="1" />
+                <s p="3" s="0" />
+              </segments>
+            </l>
+          </lines>
+          <bounds x="2" y="3" width="1" height="20" />
+          <style t="0">
+            <name></name>
+            <conditionalFormats>
+              <format>
+                <first>Condiments</first>
+                <second></second>
+                <operator>4</operator>
+                <type>0</type>
+                <style>
+                  <name></name>
+                  <conditionalFormats />
+                  <textColor>#FFB8860B</textColor>
+                  <fontItalic>1</fontItalic>
+                </style>
+              </format>
+            </conditionalFormats>
+            <bottomColor>#FF00008B</bottomColor>
+            <bottomSize>1px</bottomSize>
+            <bottomStyle>0</bottomStyle>
+            <leftColor>#FF00008B</leftColor>
+            <leftSize>1px</leftSize>
+            <leftStyle>0</leftStyle>
+            <topColor>#FF00008B</topColor>
+            <topSize>1px</topSize>
+            <topStyle>0</topStyle>
+            <rightColor>#FF00008B</rightColor>
+            <rightSize>1px</rightSize>
+            <rightStyle>0</rightStyle>
+            <fontName>Calibri</fontName>
+            <fontSize>11</fontSize>
+            <paddingBottom>3pt</paddingBottom>
+            <paddingLeft>3pt</paddingLeft>
+            <paddingRight>3pt</paddingRight>
+            <paddingTop>3pt</paddingTop>
+            <primaryDiagonalColor>#FF00008B</primaryDiagonalColor>
+            <secondaryDiagonalColor>#FF00008B</secondaryDiagonalColor>
+            <valign>2</valign>
+          </style>
+        </region>
+        <region>
+          <lines>
+            <l ymin="3" ymax="23">
+              <segments>
+                <s p="1" s="1" />
+                <s p="2" s="0" />
+              </segments>
+            </l>
+          </lines>
+          <bounds x="1" y="3" width="1" height="20" />
+          <style t="0">
+            <name></name>
+            <conditionalFormats />
+            <bottomColor>#FF00008B</bottomColor>
+            <bottomSize>1px</bottomSize>
+            <bottomStyle>0</bottomStyle>
+            <leftColor>#FF00008B</leftColor>
+            <leftSize>1px</leftSize>
+            <leftStyle>0</leftStyle>
+            <topColor>#FF00008B</topColor>
+            <topSize>1px</topSize>
+            <topStyle>0</topStyle>
+            <rightColor>#FF00008B</rightColor>
+            <rightSize>1px</rightSize>
+            <rightStyle>0</rightStyle>
+            <fontName>Calibri</fontName>
+            <fontSize>11</fontSize>
+            <paddingBottom>3pt</paddingBottom>
+            <paddingLeft>3pt</paddingLeft>
+            <paddingRight>3pt</paddingRight>
+            <paddingTop>3pt</paddingTop>
+            <primaryDiagonalColor>#FF00008B</primaryDiagonalColor>
+            <secondaryDiagonalColor>#FF00008B</secondaryDiagonalColor>
+            <valign>2</valign>
+          </style>
+        </region>
+        <region>
+          <lines>
+            <l ymin="0" ymax="2">
+              <segments>
+                <s p="0" s="1" />
+                <s p="1024" s="0" />
+              </segments>
+            </l>
+            <l ymin="2" ymax="23">
+              <segments>
+                <s p="0" s="1" />
+                <s p="1" s="0" />
+                <s p="4" s="1" />
+                <s p="1024" s="0" />
+              </segments>
+            </l>
+            <l ymin="23" ymax="1048576">
+              <segments>
+                <s p="0" s="1" />
+                <s p="1024" s="0" />
+              </segments>
+            </l>
+          </lines>
+          <bounds x="0" y="0" width="1024" height="1048576" />
+          <style t="0">
+            <name></name>
+            <conditionalFormats />
+            <fontName>Calibri</fontName>
+            <fontSize>11</fontSize>
+            <paddingBottom>3pt</paddingBottom>
+            <paddingLeft>3pt</paddingLeft>
+            <paddingRight>3pt</paddingRight>
+            <paddingTop>3pt</paddingTop>
+            <valign>2</valign>
+          </style>
+        </region>
+      </styles>
+      <mergedCells />
+      <columns />
+      <data>
+        <row r="2">
+          <c c="1">
+            <v t="23">1</v>
+          </c>
+          <c c="2">
+            <v t="23">2</v>
+          </c>
+          <c c="3">
+            <v t="23">3</v>
+          </c>
+        </row>
+        <row r="3">
+          <c c="1">
+            <v t="23">4</v>
+          </c>
+          <c c="2">
+            <v t="23">5</v>
+          </c>
+          <c c="3">
+            <v t="17">11.5</v>
+          </c>
+        </row>
+        <row r="4">
+          <c c="1">
+            <v t="23">6</v>
+          </c>
+          <c c="2">
+            <v t="23">5</v>
+          </c>
+          <c c="3">
+            <v t="17">38</v>
+          </c>
+        </row>
+        <row r="5">
+          <c c="1">
+            <v t="23">7</v>
+          </c>
+          <c c="2">
+            <v t="23">8</v>
+          </c>
+          <c c="3">
+            <v t="17">25.45</v>
+          </c>
+        </row>
+        <row r="6">
+          <c c="1">
+            <v t="23">9</v>
+          </c>
+          <c c="2">
+            <v t="23">8</v>
+          </c>
+          <c c="3">
+            <v t="17">16</v>
+          </c>
+        </row>
+        <row r="7">
+          <c c="1">
+            <v t="23">10</v>
+          </c>
+          <c c="2">
+            <v t="23">8</v>
+          </c>
+          <c c="3">
+            <v t="17">21.95</v>
+          </c>
+        </row>
+        <row r="8">
+          <c c="1">
+            <v t="23">11</v>
+          </c>
+          <c c="2">
+            <v t="23">8</v>
+          </c>
+          <c c="3">
+            <v t="17">19.85</v>
+          </c>
+        </row>
+        <row r="9">
+          <c c="1">
+            <v t="23">12</v>
+          </c>
+          <c c="2">
+            <v t="23">13</v>
+          </c>
+          <c c="3">
+            <v t="17">31.45</v>
+          </c>
+        </row>
+        <row r="10">
+          <c c="1">
+            <v t="23">14</v>
+          </c>
+          <c c="2">
+            <v t="23">8</v>
+          </c>
+          <c c="3">
+            <v t="17">44.5</v>
+          </c>
+        </row>
+        <row r="11">
+          <c c="1">
+            <v t="23">15</v>
+          </c>
+          <c c="2">
+            <v t="23">16</v>
+          </c>
+          <c c="3">
+            <v t="17">21.85</v>
+          </c>
+        </row>
+        <row r="12">
+          <c c="1">
+            <v t="23">17</v>
+          </c>
+          <c c="2">
+            <v t="23">18</v>
+          </c>
+          <c c="3">
+            <v t="17">1.65</v>
+          </c>
+        </row>
+        <row r="13">
+          <c c="1">
+            <v t="23">19</v>
+          </c>
+          <c c="2">
+            <v t="23">20</v>
+          </c>
+          <c c="3">
+            <v t="17">0.8</v>
+          </c>
+        </row>
+        <row r="14">
+          <c c="1">
+            <v t="23">21</v>
+          </c>
+          <c c="2">
+            <v t="23">20</v>
+          </c>
+          <c c="3">
+            <v t="17">9.95</v>
+          </c>
+        </row>
+        <row r="15">
+          <c c="1">
+            <v t="23">22</v>
+          </c>
+          <c c="2">
+            <v t="23">18</v>
+          </c>
+          <c c="3">
+            <v t="17">11.5</v>
+          </c>
+        </row>
+        <row r="16">
+          <c c="1">
+            <v t="23">23</v>
+          </c>
+          <c c="2">
+            <v t="23">13</v>
+          </c>
+          <c c="3">
+            <v t="17">14</v>
+          </c>
+        </row>
+        <row r="17">
+          <c c="1">
+            <v t="23">24</v>
+          </c>
+          <c c="2">
+            <v t="23">8</v>
+          </c>
+          <c c="3">
+            <v t="17">13.5</v>
+          </c>
+        </row>
+        <row r="18">
+          <c c="1">
+            <v t="23">25</v>
+          </c>
+          <c c="2">
+            <v t="23">26</v>
+          </c>
+          <c c="3">
+            <v t="17">8.9</v>
+          </c>
+        </row>
+        <row r="19">
+          <c c="1">
+            <v t="23">27</v>
+          </c>
+          <c c="2">
+            <v t="23">16</v>
+          </c>
+          <c c="3">
+            <v t="17">21.9</v>
+          </c>
+        </row>
+        <row r="20">
+          <c c="1">
+            <v t="23">28</v>
+          </c>
+          <c c="2">
+            <v t="23">18</v>
+          </c>
+          <c c="3">
+            <v t="17">6.75</v>
+          </c>
+        </row>
+        <row r="21">
+          <c c="1">
+            <v t="23">29</v>
+          </c>
+          <c c="2">
+            <v t="23">26</v>
+          </c>
+          <c c="3">
+            <v t="17">4.3</v>
+          </c>
+        </row>
+        <row r="22">
+          <c c="1">
+            <v t="23">30</v>
+          </c>
+          <c c="2">
+            <v t="23">26</v>
+          </c>
+          <c c="3">
+            <v t="17">17.6</v>
+          </c>
+        </row>
+      </data>
+      <hyperlinks />
+      <drawing />
+    </worksheet>
+  </worksheets>
+  <resources>
+    <sharedStrings>
+      <s n="1">Product</s>
+      <s n="2">Category</s>
+      <s n="3">Price</s>
+      <s n="4">Chai</s>
+      <s n="5">Beverages</s>
+      <s n="6">Chang</s>
+      <s n="7">Aniseed Syrup</s>
+      <s n="8">Condiments</s>
+      <s n="9">Chef Anton's Cajun Seasoning</s>
+      <s n="10">Chef Anton's Gumbo Mix</s>
+      <s n="11">Grandma's Boysenberry Spread</s>
+      <s n="12">Uncle Bob's Organic Dried Pears</s>
+      <s n="13">Produce</s>
+      <s n="14">Northwoods Cranberry Sauce</s>
+      <s n="15">Mishi Kobe Niku</s>
+      <s n="16">Meat/Poultry</s>
+      <s n="17">Ikura</s>
+      <s n="18">Seafood</s>
+      <s n="19">Queso Cabrales</s>
+      <s n="20">Dairy Products</s>
+      <s n="21">Queso Manchego La Pastora</s>
+      <s n="22">Konbu</s>
+      <s n="23">Tofu</s>
+      <s n="24">Genen Shouyu</s>
+      <s n="25">Pavlova</s>
+      <s n="26">Confections</s>
+      <s n="27">Alice Mutton</s>
+      <s n="28">Carnarvon Tigers</s>
+      <s n="29">Teatime Chocolate Biscuits</s>
+      <s n="30">Sir Rodney's Marmalade</s>
+    </sharedStrings>
+    <brushes>
+      <brush n="1" t="solid">
+        <color>#FFFF7855</color>
+      </brush>
+      <brush n="0" t="solid">
+        <color>#FF32CD32</color>
+      </brush>
+    </brushes>
+    <images />
+  </resources>
+  <namedRanges />
+</workbook>

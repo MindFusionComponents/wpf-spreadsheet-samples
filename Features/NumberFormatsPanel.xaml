@@ -1,0 +1,31 @@
+﻿<UserControl x:Class="MindFusion.Spreadsheet.Wpf.Samples.CS.Features.NumberFormatsPanel"
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:ss="http://mindfusion.eu/spreadsheet/wpf"
+	Background="White"
+	mc:Ignorable="d" d:DesignHeight="300" d:DesignWidth="500">
+
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition />
+			<RowDefinition Height="Auto" />
+		</Grid.RowDefinitions>
+
+		<ss:WorkbookView x:Name="workbookView">
+			<ss:Workbook x:Name="workbook" WorksheetCellChanged="workbook_WorksheetCellChanged" WorksheetCellsCleared="workbook_WorksheetCellsCleared" />
+		</ss:WorkbookView>
+
+		<Grid Grid.Row="1">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition />
+				<ColumnDefinition Width="Auto" />
+			</Grid.ColumnDefinitions>
+			<TextBlock Text="Change the plain value in column 'B' or the format in column 'C' and preview the changes in column 'D'. Press the 'Show Form' button to invoke the formatting dialog." TextWrapping="Wrap" Margin="5" />
+			<Button Name="showButton" Width="150" Margin="5" Content="Show Form..." Grid.Column="1" VerticalAlignment="Top" Click="showButton_Click" />
+		</Grid>
+
+	</Grid>
+
+</UserControl>

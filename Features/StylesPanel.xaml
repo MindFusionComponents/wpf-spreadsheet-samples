@@ -1,0 +1,24 @@
+﻿<UserControl x:Class="MindFusion.Spreadsheet.Wpf.Samples.CS.Features.StylesPanel"
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:ss="http://mindfusion.eu/spreadsheet/wpf"
+	Background="White"
+	mc:Ignorable="d" d:DesignHeight="300" d:DesignWidth="500">
+
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition />
+			<RowDefinition Height="Auto" />
+		</Grid.RowDefinitions>
+
+		<ss:WorkbookView x:Name="workbookView">
+			<ss:Workbook x:Name="workbook" />
+		</ss:WorkbookView>
+
+		<TextBlock Text="This worksheet has various types of styles applied to it - row styles, column styles and cell styles." TextWrapping="Wrap" Margin="5" Grid.Row="1" />
+
+	</Grid>
+
+</UserControl>
